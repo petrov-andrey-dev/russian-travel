@@ -24,6 +24,7 @@
     top: 0;
     position: absolute;
     background-color: rgba(42, 44, 47, .3);
+    transition: background-color .3s ease-in-out;
 }
 
 .cover__link:hover:before {
@@ -45,5 +46,6 @@
 @media screen and (max-width: 767px) {
     .cover__link {
         min-height: 200px;
+        gap: 16px;
     }
 }

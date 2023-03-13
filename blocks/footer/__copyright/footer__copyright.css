@@ -1,4 +1,4 @@
-.footer__copyrigt {
+.footer__copyright {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -8,6 +8,6 @@
     transition: opacity .2s linear;
 }
 
-.footer__copyrigt:hover {
+.footer__copyright:hover {
     opacity: .8;
 }

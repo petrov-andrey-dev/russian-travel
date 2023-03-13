@@ -9,12 +9,6 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    .lead__main-illustration {
-        padding-top: 56px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .lead__main-illustration {
         padding-top: 40px;
