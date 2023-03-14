@@ -2,15 +2,13 @@
     padding: 86px 148px 0;
     display: flex;
     flex-direction: column;
-    /* Выравнивание элементов внутри flex-элемента по левому краю */
     align-items: flex-start;
+    align-self: flex-start; 
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
         padding: 86px 0 0 48px;
-        /* На ращреении меньше 1280 прижимание всего flex-элемента к левому краю */
-        align-self: flex-start; 
     }
 }
 
